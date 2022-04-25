@@ -1,1 +1,12 @@
 /* add home page styles here */
+.shell {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.shell img {
+    
+}
