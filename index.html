@@ -13,11 +13,27 @@
 </head>
 
 <body>
-    <header>
+    <style type="text/css">
+        body {
+            background-color: aqua;
+        }
+        header {
+            color: green;
+        }
+
+        section {
+            color: brown;
+        }
+        </style>
+        <header>
         <div class="gutter-right logo">
             <img src="./assets/big-logo.png" />
         </div>
     </header>
+    <header>
+        
+            <img src="https://www.cartoonstock.com/cartoon?searchID=CS127110" class="cartoon-img"/>
+        </header>
     <main>
         <section class="main-section">
             <h1><strong>Welcome to Daniel's shell game!</strong></h1>
@@ -35,8 +51,8 @@
                         </div>
                         <div class="shells">
                             <div class="shell" id="shell-3">
-                                <img src="https://th.bing.com/th/id/R.bad7a84020a1139802b952bca6ddedcc?rik=MBrAlb1b9w1iVg&riu=http%3a%2f%2fmedia1.santabanta.com%2ffull1%2fNature%2fSeashells%2fseashells-41a.jpg&ehk=6CNN2ICI%2fMF8rbCHMWAwYm%2fxnb%2fCCmiVDPX7YSJzAac%3d&risl=&pid=ImgRaw&r=0" />
-                                <div class="ball"></div>
+                                <img src="https://th.bing.com/th/id/R.bad7a84020a1139802b952bca6ddedcc?rik=MBrAlb1b9w1iVg&riu=http%3a%2f%2fmedia1.santabanta.com%2ffull1%2fNature%2fSeashells%2fseashells-41a.jpg&ehk=6CNN2ICI%2fMF8rbCHMWAwYm%2fxnb%2fCCmiVDPX7YSJzAac%3d&risl=&pid=ImgRaw&r=0" id="shell-3-img" />
+                                <div id="ball"></div>
                                 <button id="shell-3-button">Guess</button>
                             </div>
                         </div>
@@ -51,8 +67,6 @@
     <footer>
         <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
     </footer>
-
-    <script type="module" src="./app.js"></script>
 </body>
 
 </html>
