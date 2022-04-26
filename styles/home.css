@@ -1,6 +1,6 @@
 /* add home page styles here */
 .shell {
-    width: 20px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,6 +9,52 @@
 
 .shell img {
     width: 100%;
-    transition: transform 0.5 ease-in-out ;
+    transition: transform 0.5s ease-in-out ;
     z-index: 20;
+}
+
+.shells {
+    display: flex;
+    flex-direction: row;
+}
+
+.cartoon-img {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#shell-1-button {
+    background-color: #00ba09;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ba0000;
+
+}
+
+#shell-2-button {
+    background-color: #00ba09;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ba0000;
+}
+
+#shell-3-button {
+    background-color: #00ba09;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ba0000;
+}
+
+.ball {
+    z-index: 10;
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    top: 120px;
+    background-color: #ba0000;
+    border-radius: 50%;
+    box-shadow: 5px -2px 5px rgba(0, 0, 0, 0, 0.6);
+}
+
+.shells .reveal img {
+    transform: translateY(-60px);
 }
