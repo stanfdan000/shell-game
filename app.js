@@ -64,8 +64,6 @@ button3.addEventListener('click', () => {
 
 
 
-  //sign hidingPlace random number between 0-2
-  //const hidingPlaces = math.floor(math.random() * 3);
   
 
 //   button2.addEventListener('click', () => {
