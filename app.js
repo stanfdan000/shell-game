@@ -24,12 +24,14 @@ const container3 = document.getElementById('shell-3');
 
 
 
+
 const placesToHide = ['shell-1', 'shell-2', 'shell-3'];
 
-button1.addEventListener('click', () => { 
+button1.addEventListener('click', () => {
     container1.classList.remove('reveal');
     container2.classList.remove('reveal');
     container3.classList.remove('reveal');
+    
 
     const randomNumber = Math.ceil(Math.random() * 3);
 
@@ -52,10 +54,51 @@ button1.addEventListener('click', () => {
 });
 
 button2.addEventListener('click', () => { 
+    container1.classList.remove('reveal');
+    container2.classList.remove('reveal');
+    container3.classList.remove('reveal');
+
+    const randomNumber = Math.ceil(Math.random() * 3);
+
+    if (randomNumber === 1) {
+        container1.classList.add('reveal');
+        losses++;          
+    } else if (randomNumber === 2){
+        container2.classList.add('reveal');
+        win++;
+      
+    } else {
+        container3.classList.add('reveal');
+        losses++;
+
+    }
+    winsEl.textContent = win;
+    lossesEl.textContent = losses;
+    totalEl.textContent = win + losses;
 });
 
 button3.addEventListener('click', () => { 
+    container1.classList.remove('reveal');
+    container2.classList.remove('reveal');
+    container3.classList.remove('reveal');
+
+    const randomNumber = Math.ceil(Math.random() * 3);
+
+    if (randomNumber === 1) {
+        container1.classList.add('reveal');
+        losses++;          
+    } else if (randomNumber === 2){
+        container2.classList.add('reveal');
+        losses++;
     
+    } else {
+        container3.classList.add('reveal');
+        win++;
+
+    }
+    winsEl.textContent = win;
+    lossesEl.textContent = losses;
+    totalEl.textContent = win + losses;
 }); 
 
 
