@@ -11,7 +11,7 @@ const totalEl = document.getElementById('total');
 
 let win = 0;
 let losses = 0;
-let total = 0;
+//let total = 0;
 
 
 const button1 = document.getElementById('shell-1-button');
@@ -25,7 +25,7 @@ const container3 = document.getElementById('shell-3');
 
 
 
-const placesToHide = ['shell-1', 'shell-2', 'shell-3'];
+//const placesToHide = ['shell-1', 'shell-2', 'shell-3'];
 
 button1.addEventListener('click', () => {
     container1.classList.remove('reveal');
@@ -106,28 +106,4 @@ button3.addEventListener('click', () => {
 
 
 
-
   
-
-//   button2.addEventListener('click', () => {
-//     const hidingPlaces = math.floor(math.random() * 3);
-//     const answer = hidingPlaces[hidingPlaces];
-//     handleGuess(answer, 'shell-2');
-//     
-//     }if (randomShell === 2) {
-//       win++;
-//     } else {
-//       losses++;
-//  }
-
-//  button3.addEventListener('click', () => {
-//   const hidingPlaces = math.floor(math.random() * 3);
-//   const answer = hidingPlaces[hidingPlaces];
-//   handleGuess(answer, 'shell-3');
-//   if (randomShell === 3) {
-//     win++;
-//   } else {
-//     losses++;
-//   }
-// let correctGuesses = 0;
-// let totalGuesses = 0;
