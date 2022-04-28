@@ -106,28 +106,4 @@ button3.addEventListener('click', () => {
 
 
 
-
   
-
-//   button2.addEventListener('click', () => {
-//     const hidingPlaces = math.floor(math.random() * 3);
-//     const answer = hidingPlaces[hidingPlaces];
-//     handleGuess(answer, 'shell-2');
-//     
-//     }if (randomShell === 2) {
-//       win++;
-//     } else {
-//       losses++;
-//  }
-
-//  button3.addEventListener('click', () => {
-//   const hidingPlaces = math.floor(math.random() * 3);
-//   const answer = hidingPlaces[hidingPlaces];
-//   handleGuess(answer, 'shell-3');
-//   if (randomShell === 3) {
-//     win++;
-//   } else {
-//     losses++;
-//   }
-// let correctGuesses = 0;
-// let totalGuesses = 0;
